@@ -1,0 +1,151 @@
+Microsoft Windows [Versión 10.0.22631.4460]
+(c) Microsoft Corporation. Todos los derechos reservados.
+
+C:\Users\mario>mkdir djangogirls
+
+C:\Users\mario>cd djangogirls
+
+C:\Users\mario\djangogirls> python -m venv myvenv
+
+C:\Users\mario\djangogirls> myvenv\Scripts\activate
+
+(myvenv) C:\Users\mario\djangogirls>
+(myvenv) C:\Users\mario\djangogirls>~$ python -m pip install --upgrade pip
+"~$" no se reconoce como un comando interno o externo,
+programa o archivo por lotes ejecutable.
+
+(myvenv) C:\Users\mario\djangogirls>python -m pip install --upgrade pip
+Requirement already satisfied: pip in c:\users\mario\djangogirls\myvenv\lib\site-packages (24.2)
+Collecting pip
+  Using cached pip-24.3.1-py3-none-any.whl.metadata (3.7 kB)
+Using cached pip-24.3.1-py3-none-any.whl (1.8 MB)
+Installing collected packages: pip
+  Attempting uninstall: pip
+    Found existing installation: pip 24.2
+    Uninstalling pip-24.2:
+      Successfully uninstalled pip-24.2
+Successfully installed pip-24.3.1
+
+(myvenv) C:\Users\mario\djangogirls> djangogirls
+"djangogirls" no se reconoce como un comando interno o externo,
+programa o archivo por lotes ejecutable.
+
+(myvenv) C:\Users\mario\djangogirls>└───requirements.txt
+"└───requirements.txt" no se reconoce como un comando interno o externo,
+programa o archivo por lotes ejecutable.
+
+(myvenv) C:\Users\mario\djangogirls>requirements.txt
+"requirements.txt" no se reconoce como un comando interno o externo,
+programa o archivo por lotes ejecutable.
+
+(myvenv) C:\Users\mario\djangogirls>requirements.txt
+"requirements.txt" no se reconoce como un comando interno o externo,
+programa o archivo por lotes ejecutable.
+
+(myvenv) C:\Users\mario\djangogirls> Django~=4.2.11 > requirements.txt
+"Django~" no se reconoce como un comando interno o externo,
+programa o archivo por lotes ejecutable.
+
+(myvenv) C:\Users\mario\djangogirls>pip install -r requirements.txt
+
+(myvenv) C:\Users\mario\djangogirls>pip install -r requirements.txt
+
+(myvenv) C:\Users\mario\djangogirls>pip install -r requirements
+ERROR: Could not open requirements file: [Errno 2] No such file or directory: 'requirements'
+
+(myvenv) C:\Users\mario\djangogirls>pip install -r requirements.txt
+ERROR: Could not open requirements file: [Errno 2] No such file or directory: 'requirements.txt'
+
+(myvenv) C:\Users\mario\djangogirls>pip install -r requirements.txt
+Collecting Django~=4.2.11 (from -r requirements.txt (line 1))
+  Downloading Django-4.2.16-py3-none-any.whl.metadata (4.1 kB)
+Collecting asgiref<4,>=3.6.0 (from Django~=4.2.11->-r requirements.txt (line 1))
+  Downloading asgiref-3.8.1-py3-none-any.whl.metadata (9.3 kB)
+Collecting sqlparse>=0.3.1 (from Django~=4.2.11->-r requirements.txt (line 1))
+  Downloading sqlparse-0.5.2-py3-none-any.whl.metadata (3.9 kB)
+Collecting tzdata (from Django~=4.2.11->-r requirements.txt (line 1))
+  Downloading tzdata-2024.2-py2.py3-none-any.whl.metadata (1.4 kB)
+Downloading Django-4.2.16-py3-none-any.whl (8.0 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 8.0/8.0 MB 5.2 MB/s eta 0:00:00
+Downloading asgiref-3.8.1-py3-none-any.whl (23 kB)
+Downloading sqlparse-0.5.2-py3-none-any.whl (44 kB)
+Downloading tzdata-2024.2-py2.py3-none-any.whl (346 kB)
+Installing collected packages: tzdata, sqlparse, asgiref, Django
+Successfully installed Django-4.2.16 asgiref-3.8.1 sqlparse-0.5.2 tzdata-2024.2
+
+(myvenv) C:\Users\mario\djangogirls>Collecting Django~=4.2.11 (from -r requirements.txt (line 1))
+"Collecting" no se reconoce como un comando interno o externo,
+programa o archivo por lotes ejecutable.
+
+(myvenv) C:\Users\mario\djangogirls>  Downloading Django-4.2.11-py3-none-any.whl (7.1MB)
+"Downloading" no se reconoce como un comando interno o externo,
+programa o archivo por lotes ejecutable.
+
+(myvenv) C:\Users\mario\djangogirls>Installing collected packages: Django
+"Installing" no se reconoce como un comando interno o externo,
+programa o archivo por lotes ejecutable.
+
+(myvenv) C:\Users\mario\djangogirls>Successfully installed Django-4.2.1
+"Successfully" no se reconoce como un comando interno o externo,
+programa o archivo por lotes ejecutable.
+
+(myvenv) C:\Users\mario\djangogirls>djangogirls/
+"djangogirls" no se reconoce como un comando interno o externo,
+programa o archivo por lotes ejecutable.
+
+(myvenv) C:\Users\mario\djangogirls>├── requirements.txt
+"├──" no se reconoce como un comando interno o externo,
+programa o archivo por lotes ejecutable.
+
+(myvenv) C:\Users\mario\djangogirls>requirements.txt
+
+(myvenv) C:\Users\mario\djangogirls>django-admin.exe startproject mysite .
+
+(myvenv) C:\Users\mario\djangogirls>djangogirls/
+"djangogirls" no se reconoce como un comando interno o externo,
+programa o archivo por lotes ejecutable.
+
+(myvenv) C:\Users\mario\djangogirls>├── mysite/
+"├──" no se reconoce como un comando interno o externo,
+programa o archivo por lotes ejecutable.
+
+(myvenv) C:\Users\mario\djangogirls>    ├── settings.py
+"├──" no se reconoce como un comando interno o externo,
+programa o archivo por lotes ejecutable.
+
+(myvenv) C:\Users\mario\djangogirls>python manage.py migrate
+Operations to perform:
+  Apply all migrations: admin, auth, contenttypes, sessions
+Running migrations:
+  Applying contenttypes.0001_initial... OK
+  Applying auth.0001_initial... OK
+  Applying admin.0001_initial... OK
+  Applying admin.0002_logentry_remove_auto_add... OK
+  Applying admin.0003_logentry_add_action_flag_choices... OK
+  Applying contenttypes.0002_remove_content_type_name... OK
+  Applying auth.0002_alter_permission_name_max_length... OK
+  Applying auth.0003_alter_user_email_max_length... OK
+  Applying auth.0004_alter_user_username_opts... OK
+  Applying auth.0005_alter_user_last_login_null... OK
+  Applying auth.0006_require_contenttypes_0002... OK
+  Applying auth.0007_alter_validators_add_error_messages... OK
+  Applying auth.0008_alter_user_username_max_length... OK
+  Applying auth.0009_alter_user_last_name_max_length... OK
+  Applying auth.0010_alter_group_name_max_length... OK
+  Applying auth.0011_update_proxy_permissions... OK
+  Applying auth.0012_alter_user_first_name_max_length... OK
+  Applying sessions.0001_initial... OK
+
+(myvenv) C:\Users\mario\djangogirls>python manage.py runserver
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 17, 2024 - 17:24:22
+Django version 4.2.16, using settings 'mysite.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+
+[17/Nov/2024 17:25:14] "GET / HTTP/1.1" 200 10664
+Not Found: /favicon.ico
+[17/Nov/2024 17:25:16] "GET /favicon.ico HTTP/1.1" 404 2110
